@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta nam.e="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="javasc.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="Heading">My Web Series</h1>
+    </header>
+    <div class="container">
+      <section class="section-form">
+        <form id="add-from">
+          <label for="title">Title:</label><input id="title" type="text" />
+          <label for="directors">Directors:</label
+          ><input id="directors" type="text" /> <label for="stars">Stars:</label
+          ><input id="stars" type="text" />
+          <label for="platform">Platform:</label>
+          <select id="platform">
+            <option>None</option>
+            <option value="amazon-prime">Amazon Prime</option>
+            <option value="netflix">Netflix</option>
+            <option value="hulu">Hulu</option>
+            <option value="disney">Disney</option>
+            <option value="voot">Voot</option>
+          </select>
+          <button id="button" class="btn">Add</button>
+        </form>
+      </section>
+      <section class="section-cards"></section>
+    </div>
+  </body>
+</html>
