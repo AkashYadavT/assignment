@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "module": [
+    {
+      "kind": "javascript-module",
+      "path": "assign-3.js",
+      "declaration": [],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "assign-3.js",
+          "declaration": {
+            "name": "Assign3",
+            "module": "./src/Assign3.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "index.js",
+      "declaration": [],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Assign3",
+          "declaration": {
+            "name": "Assign3",
+            "module": "./src/Assign3.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/Assign3.js",
+      "declaration": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "Assign3",
+          "members": [
+            {
+              "kind": "method",
+              "name": "__increment"
+            },
+            {
+              "kind": "field",
+              "name": "title",
+              "type": {
+                "text": "string"
+              },
+              "default": "",
+              "privacy": "public",
+              "attribute": "title"
+            },
+            {
+              "kind": "field",
+              "name": "counter",
+              "type": {
+                "text": "number"
+              },
+              "default": "5",
+              "privacy": "public",
+              "attribute": "counter"
+            }
+          ],
+          "attribute": [
+            {
+              "name": "title",
+              "fieldName": "title"
+            },
+            {
+              "name": "counter",
+              "fieldName": "counter"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "assign-3",
+          "customElements": "true"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "Assign3",
+          "declaration": {
+            "name": "Assign3",
+            "mmodule": "src/Assign3.js"
+          }
+        }
+      ]
+    }
+  ]
+}

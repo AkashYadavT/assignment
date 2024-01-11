@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  background-color: blue;
+  font: size 6.4rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 2.4rem;
+  margin: 1.2rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

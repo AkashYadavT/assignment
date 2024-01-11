@@ -1,0 +1,20 @@
+{
+  "name": "assign-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "author": "assign-3",
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.9.0",
+    "@web/dev-server": "^0.4.1"
+  },
+  "customElemets": "custom-elements.json"
+}
