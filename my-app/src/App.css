@@ -1,12 +1,28 @@
 .App {
   text-align: center;
 }
-
+.square{
+  height: 100px;
+  width: 100px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.board-row{
+  display: flex;
+}
+.BorderOutside{
+  display: flex;
+  border: 1px solid black;
+}
+.status{
+  margin-top: 50px;
+  align-items: center;
+}
+.MiddleBody{
+      justify-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
